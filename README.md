@@ -7,10 +7,6 @@ Rust Books
  * [Advanced Books](#advanced-books)
 * [Resources](#resources)
 
-**Books**
-====
-
-**Starter Books**
 ----
 
 ### [The Rust Programming Language](https://doc.rust-lang.org/book/) *Free*
@@ -116,7 +112,6 @@ After reading Practical Machine Learning with Rust, you will have a solid unders
 Rust Web Development is a hands-on guide to building server-based web applications with Rust. If you’ve built web servers using Java, C#, or PHP, you’ll instantly fall in love with the performance and development experience Rust delivers. This book shows you how to work efficiently using pure Rust, along with important Rust libraries such as tokio for async runtimes, warp for web servers and APIs, and reqwest to run external HTTP requests.
 
 You can hand this book over to your newly hired developer and onboard them with this book. It contains very practical examples and patterns, and serves as a solid foundation for future exploration into the topic.
-
 
 **Advanced Books**
 ---
@@ -263,6 +258,27 @@ Learn:
 * Develop an interpreter and a compiler for a programming language
 * Create a machine language emulator
 * Extend the Linux Kernel with loadable modules
+
+
+###[Rust for Rustaceans](https://nostarch.com/rust-rustaceans)
+<img src="https://nostarch.com/rust-rustaceans" width="120px"/>
+
+For developers who’ve mastered the basics, this book is the next step on your way to professional-level programming in Rust. It covers everything you need to build and maintain larger code bases, write powerful and flexible applications and libraries, and confidently expand the scope and complexity of your projects.
+
+Author Jon Gjengset takes you deep into the Rust programming language, dissecting core topics like ownership, traits, concurrency, and unsafe code. You’ll explore key concepts like type layout and trait coherence, delve into the inner workings of concurrent programming and asynchrony with async/await, and take a tour of the world of no_std programming. Gjengset also provides expert guidance on API design, testing strategies, and error handling, and will help develop your understanding of foreign function interfaces, object safety, procedural macros, and much more.
+
+You'll Learn:
+
+    1)How to design reliable, idiomatic, and ergonomic Rust programs based on best principles
+    2)Effective use of declarative and procedural macros, and the difference between them
+    3)How asynchrony works in Rust
+    4)What it means for code to be unsafe, and best practices for writing and interacting with unsafe functions and traits
+    5)How to organize and configure more complex Rust projects so that they integrate nicely with the rest of the ecosystem
+    6)How to write Rust code that can interoperate with non-Rust libraries and systems, or run in constrained and embedded environments 
+
+Brimming with practical, pragmatic insights that you can immediately apply, Rust for Rustaceans helps you do more with Rust, while also teaching you its underlying mechanisms.
+This book is yet to be released(November 2021),its early access,however,covers a major part of it.
+
 
 **Resources**
 ====
